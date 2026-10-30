@@ -1,0 +1,5 @@
+# Raspberry Pi 4 / Debian ARM64 runtime for AIRA-OA v1.4 touch kiosk.
+# OpenCV is supplied by Raspberry Pi OS (apt), not a pip wheel.
+tflite-runtime==2.14.0
+numpy>=1.26,<2.0
+Pillow>=10.0
